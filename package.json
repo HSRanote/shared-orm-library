@@ -1,6 +1,15 @@
 {
+  "name": "shared-orm-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
-    "@nestjs/typeorm": "^10.0.2",
-    "typeorm": "^0.3.20"
+    "pg": "^8.7.1",
+    "typeorm": "^0.2.41"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
   }
 }
